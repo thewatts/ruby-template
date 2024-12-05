@@ -1,8 +1,9 @@
 source "https://rubygems.org"
 
 # Pry is a runtime developer console and IRB alternative with powerful introspection capabilities. Pry aims to be more than an IRB replacement. It is an attempt to bring REPL driven programming to the Ruby language.
-gem "pry", "~> 0.14.2"
+gem "pry"
 # BDD for Ruby
-gem "rspec", "~> 3.12.0"
+gem "rspec"
 # Ruby Style Guide, with linter & automatic code fixer
-gem "standard", "~> 1.32.0"
+gem "rubocop"
+gem "standard"
